@@ -37,7 +37,7 @@ namespace Metotlar
 
             //instance - örnek
             //encapsulation
-            
+            //Hasan Furkan Fidan adamdır
             SepetManager sepetManager = new SepetManager();
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
