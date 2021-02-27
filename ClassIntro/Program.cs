@@ -8,7 +8,7 @@ namespace ClassIntro
         {
             string adi = "Burak";
             int yas = 36;
-
+            
             Kurs kurs1 = new Kurs();
             kurs1.KursAdi = "C#";
             kurs1.Egitmen = "Engin Demiroğ";
@@ -33,7 +33,8 @@ namespace ClassIntro
 
             //Console.WriteLine(kurs1.KursAdi + " : " + kurs1.Egitmen);
 
-            Kurs[] kurslar = new Kurs[] {kurs1, kurs2, kurs3, kurs4 };
+            Kurs[] kurslar = new Kurs[] {kurs1};
+            
 
             foreach (var kurs in kurslar)
             {
